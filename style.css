@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
+
+body {
+  font-size: 13px;
+}
+
+.banner-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.bg-violet {
+  background-color: rgb(80, 43, 226);
+}
+
+.bg-brown {
+  background-color: rgb(65, 63, 63);
+}
+
+.navbar-toggler:active {
+  border-color: rgb(161, 161, 48);
+}
